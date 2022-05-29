@@ -1,0 +1,19 @@
+- EACH player has 6 cards on the beggining
+- First card is picked up from the deck and from this card starts the new round
+- Player needs to put on top the card with the same suite or rank and then next turn starts.
+    - if player does not have a card with the same suite or rank - he needs to take one card from the deck and skip turn
+    - if card on the table before player's turn is 7: 
+        - if player does not have a 7 card of any suite he tooks 2 cards from the deck and skips turn.
+        - if player has a 7 card then he needs to put his 7 card on top of 7s card on the table:
+            - then next player needs to do the same or he takes 4 cards from the deck(becouse amount before him there are 2 sevens in the row)
+    - if players has a "J" card in his hand then he can use this card over any other card any moment(even 7). the player who throwed "J" needs to request the suite for the next turn. 
+    - if card on the table before player's turn is "J" then he needs to take out the card with the exact requested suite.
+        - if player has another "J" in his hand: he can use it over "J" on the table
+    - if last played card before player's turn on the table is 8:
+        - player skips his turn and has no right to put any card on top
+        - is player has 8s card in his hand, he can use it, then next player skips the turn
+    
+    - when the player has only one card left in his hand:
+        - player needs to shout out "MAU"
+
+    - a player with no cards left in his hand wins the game. 
